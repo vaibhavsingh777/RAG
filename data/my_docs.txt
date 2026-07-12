@@ -1,0 +1,11 @@
+Artificial intelligence (AI) is a branch of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence. This includes learning, reasoning, problem-solving, perception, and language understanding.
+
+Python is a popular programming language known for its simplicity and versatility. It is widely used in web development, data science, automation, and artificial intelligence.
+
+Climate change refers to long-term changes in temperature and weather patterns, primarily caused by human activities such as burning fossil fuels and deforestation. It poses serious risks to ecosystems, economies, and human health.
+
+The Great Wall of China is a series of fortifications built along the northern borders of China to protect against invasions. It is one of the largest construction projects ever completed.
+
+Machine learning is a subset of AI that involves training algorithms on data to enable them to make predictions or decisions without being explicitly programmed for each task.
+
+Electric vehicles (EVs) are automobiles powered by electric motors instead of internal combustion engines, offering benefits like reduced emissions and lower operating costs.
