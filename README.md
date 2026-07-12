@@ -128,7 +128,7 @@ pytest
 ```
 
 ## License
-open - source for now.
-Author: Vaibhav Kumar Singh
-IIT Bombay
-24b2725@iitb.ac.in
+- open - source for now.
+- Author: Vaibhav Kumar Singh
+- IIT Bombay
+- 24b2725@iitb.ac.in
