@@ -1,0 +1,552 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "implementing_concepts",
+        "label": "Human Readable Label",
+        "nodes": [
+          "machine_learning",
+          "climate_change",
+          "electric_vehicles",
+          "great_wall_of_china"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 0.75,
+        "source_file": "data/my_docs.txt"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "app/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "app_init",
+      "community": 5,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "QAPipeline",
+      "file_type": "code",
+      "source_file": "app/__init__.py",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "app_init_qapipeline",
+      "community": 5,
+      "norm_label": "qapipeline"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "app/__init__.py",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "app_init_qapipeline_init",
+      "community": 5,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": "auth.py",
+      "file_type": "code",
+      "source_file": "app/auth.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "app_auth",
+      "community": 3,
+      "norm_label": "auth.py"
+    },
+    {
+      "label": "check_auth()",
+      "file_type": "code",
+      "source_file": "app/auth.py",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "app_auth_check_auth",
+      "community": 3,
+      "norm_label": "check_auth()"
+    },
+    {
+      "label": "cache.py",
+      "file_type": "code",
+      "source_file": "app/cache.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "app_cache",
+      "community": 4,
+      "norm_label": "cache.py"
+    },
+    {
+      "label": "cache_get()",
+      "file_type": "code",
+      "source_file": "app/cache.py",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "app_cache_cache_get",
+      "community": 4,
+      "norm_label": "cache_get()"
+    },
+    {
+      "label": "cache_set()",
+      "file_type": "code",
+      "source_file": "app/cache.py",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "app_cache_cache_set",
+      "community": 4,
+      "norm_label": "cache_set()"
+    },
+    {
+      "label": "config.py",
+      "file_type": "code",
+      "source_file": "app/config.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "app_config",
+      "community": 3,
+      "norm_label": "config.py"
+    },
+    {
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "app/main.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "app_main",
+      "community": 1,
+      "norm_label": "main.py"
+    },
+    {
+      "label": "rate_limit_handler()",
+      "file_type": "code",
+      "source_file": "app/main.py",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "app_main_rate_limit_handler",
+      "community": 2,
+      "norm_label": "rate_limit_handler()"
+    },
+    {
+      "label": "Request",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "request",
+      "community": 2,
+      "norm_label": "request"
+    },
+    {
+      "label": "RateLimitExceeded",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "ratelimitexceeded",
+      "community": 2,
+      "norm_label": "ratelimitexceeded"
+    },
+    {
+      "label": "ask()",
+      "file_type": "code",
+      "source_file": "app/main.py",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "app_main_ask",
+      "community": 2,
+      "norm_label": "ask()"
+    },
+    {
+      "label": "qa_pipeline.py",
+      "file_type": "code",
+      "source_file": "app/qa_pipeline.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "app_qa_pipeline",
+      "community": 1,
+      "norm_label": "qa_pipeline.py"
+    },
+    {
+      "label": "QAPipeline",
+      "file_type": "code",
+      "source_file": "app/qa_pipeline.py",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "app_qa_pipeline_qapipeline",
+      "community": 1,
+      "norm_label": "qapipeline"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "app/qa_pipeline.py",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "app_qa_pipeline_qapipeline_init",
+      "community": 1,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".get_answer()",
+      "file_type": "code",
+      "source_file": "app/qa_pipeline.py",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "app_qa_pipeline_qapipeline_get_answer",
+      "community": 1,
+      "norm_label": ".get_answer()"
+    },
+    {
+      "label": "Human Readable Name",
+      "file_type": "code",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "src_auth_session",
+      "community": 0,
+      "norm_label": "human readable name"
+    },
+    {
+      "label": "Human Readable Name",
+      "file_type": "code",
+      "source_file": "slowapi.py",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "slowapi",
+      "community": 0,
+      "norm_label": "human readable name"
+    },
+    {
+      "label": "Human Readable Name",
+      "file_type": "code",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "faiss-cpu",
+      "community": 0,
+      "norm_label": "human readable name"
+    },
+    {
+      "label": "Human Readable Name",
+      "file_type": "code",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "python-dotenv",
+      "community": 0,
+      "norm_label": "human readable name"
+    },
+    {
+      "label": "Human Readable Name",
+      "file_type": "code",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "langchain",
+      "community": 0,
+      "norm_label": "human readable name"
+    },
+    {
+      "label": "Human Readable Name",
+      "file_type": "code",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "uvicorn",
+      "community": 6,
+      "norm_label": "human readable name"
+    },
+    {
+      "label": "Human Readable Name",
+      "file_type": "paper",
+      "source_file": "data/my_docs.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "redis",
+      "community": 0,
+      "norm_label": "human readable name"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/__init__.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_init",
+      "target": "app_init_qapipeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/__init__.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_init_qapipeline",
+      "target": "app_init_qapipeline_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/auth.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "app_auth",
+      "target": "app_auth_check_auth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/auth.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_auth",
+      "target": "app_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/cache.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "app_cache",
+      "target": "app_cache_cache_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/cache.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "app_cache",
+      "target": "app_cache_cache_set",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/cache.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_cache",
+      "target": "redis",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/main.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "app_main",
+      "target": "app_main_ask",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/main.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "app_main",
+      "target": "app_main_rate_limit_handler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/main.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "app_main",
+      "target": "app_qa_pipeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/main.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "app_main",
+      "target": "app_qa_pipeline_qapipeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/main.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_main",
+      "target": "slowapi",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "app/main.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "app_main_rate_limit_handler",
+      "target": "ratelimitexceeded",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "app/main.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "app_main_rate_limit_handler",
+      "target": "request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "app/main.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "app_main_ask",
+      "target": "request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/qa_pipeline.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "app_qa_pipeline",
+      "target": "app_qa_pipeline_qapipeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/qa_pipeline.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "app_qa_pipeline_qapipeline",
+      "target": "app_qa_pipeline_qapipeline_get_answer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/qa_pipeline.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "app_qa_pipeline_qapipeline",
+      "target": "app_qa_pipeline_qapipeline_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "src_auth_session",
+      "target": "slowapi",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "source_file": "slowapi.py",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "slowapi",
+      "target": "redis",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "faiss-cpu",
+      "target": "redis",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "python-dotenv",
+      "target": "redis",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "langchain",
+      "target": "redis",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "implementing_concepts",
+      "label": "Human Readable Label",
+      "nodes": [
+        "machine_learning",
+        "climate_change",
+        "electric_vehicles",
+        "great_wall_of_china"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.75,
+      "source_file": "data/my_docs.txt"
+    }
+  ],
+  "built_at_commit": "06293d7269dd41c74b63dd8622792f922c17dda6"
+}

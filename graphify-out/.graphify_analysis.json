@@ -1,0 +1,183 @@
+{
+  "communities": {
+    "0": [
+      "faiss-cpu",
+      "langchain",
+      "python-dotenv",
+      "redis",
+      "slowapi",
+      "src_auth_session"
+    ],
+    "1": [
+      "app_main",
+      "app_qa_pipeline",
+      "app_qa_pipeline_qapipeline",
+      "app_qa_pipeline_qapipeline_get_answer",
+      "app_qa_pipeline_qapipeline_init"
+    ],
+    "2": [
+      "app_main_ask",
+      "app_main_rate_limit_handler",
+      "ratelimitexceeded",
+      "request"
+    ],
+    "3": [
+      "app_auth",
+      "app_auth_check_auth",
+      "app_config"
+    ],
+    "4": [
+      "app_cache",
+      "app_cache_cache_get",
+      "app_cache_cache_set"
+    ],
+    "5": [
+      "app_init",
+      "app_init_qapipeline",
+      "app_init_qapipeline_init"
+    ],
+    "6": [
+      "uvicorn"
+    ]
+  },
+  "cohesion": {
+    "0": 0.3333333333333333,
+    "1": 0.5,
+    "2": 0.5,
+    "3": 0.6666666666666666,
+    "4": 0.6666666666666666,
+    "5": 0.6666666666666666,
+    "6": 1.0
+  },
+  "gods": [
+    {
+      "id": "redis",
+      "label": "Human Readable Name",
+      "degree": 5
+    },
+    {
+      "id": "app_qa_pipeline_qapipeline",
+      "label": "QAPipeline",
+      "degree": 4
+    },
+    {
+      "id": "app_main_rate_limit_handler",
+      "label": "rate_limit_handler()",
+      "degree": 3
+    },
+    {
+      "id": "slowapi",
+      "label": "Human Readable Name",
+      "degree": 3
+    },
+    {
+      "id": "app_init_qapipeline",
+      "label": "QAPipeline",
+      "degree": 2
+    },
+    {
+      "id": "app_main_ask",
+      "label": "ask()",
+      "degree": 2
+    },
+    {
+      "id": "src_auth_session",
+      "label": "Human Readable Name",
+      "degree": 1
+    },
+    {
+      "id": "faiss-cpu",
+      "label": "Human Readable Name",
+      "degree": 1
+    },
+    {
+      "id": "python-dotenv",
+      "label": "Human Readable Name",
+      "degree": 1
+    },
+    {
+      "id": "langchain",
+      "label": "Human Readable Name",
+      "degree": 1
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Human Readable Name",
+      "target": "Human Readable Name",
+      "source_files": [
+        "slowapi.py",
+        "data/my_docs.txt"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (code ↔ doc); connects across different repos/directories"
+    },
+    {
+      "source": "Human Readable Name",
+      "target": "Human Readable Name",
+      "source_files": [
+        "requirements.txt",
+        "slowapi.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "crosses file types (doc ↔ code); connects across different repos/directories"
+    },
+    {
+      "source": "Human Readable Name",
+      "target": "Human Readable Name",
+      "source_files": [
+        "requirements.txt",
+        "data/my_docs.txt"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; peripheral node `Human Readable Name` unexpectedly reaches hub `Human Readable Name`"
+    },
+    {
+      "source": "Human Readable Name",
+      "target": "Human Readable Name",
+      "source_files": [
+        "requirements.txt",
+        "data/my_docs.txt"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "conceptually_related_to",
+      "why": "connects across different repos/directories; peripheral node `Human Readable Name` unexpectedly reaches hub `Human Readable Name`"
+    },
+    {
+      "source": "Human Readable Name",
+      "target": "Human Readable Name",
+      "source_files": [
+        "requirements.txt",
+        "data/my_docs.txt"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "conceptually_related_to",
+      "why": "connects across different repos/directories; peripheral node `Human Readable Name` unexpectedly reaches hub `Human Readable Name`"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `Human Readable Name` connect `User Interface` to `Question Answering Pipeline`?",
+      "why": "High betweenness centrality (0.286) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Human Readable Name` connect `User Interface` to `Caching`?",
+      "why": "High betweenness centrality (0.283) - this node is a cross-community bridge."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 2 inferred relationships involving `Human Readable Name` (e.g. with `Human Readable Name` and `Human Readable Name`) actually correct?",
+      "why": "`Human Readable Name` has 2 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `Human Readable Name`, `Human Readable Name`, `Human Readable Name` to the rest of the system?",
+      "why": "5 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}
